@@ -1,4 +1,4 @@
-.columns > div {
+.columns-v2 > div {
   display: flex;
   flex-direction: column;
 }
@@ -11,11 +11,11 @@
   order: 1;
 }
 
-.columns-v2 > div > .columns-img-col {
+.columns-v2 > div > .columns-v2-img-col {
   order: 0;
 }
 
-.columns-v2 > div > .columns-img-col img {
+.columns-v2 > div > .columns-v2-img-col img {
   display: block;
 }
 
