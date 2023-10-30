@@ -1,5 +1,6 @@
 .columnsv2 > div {
   display: flex;
+  background: #abdbe3;
   flex-direction: column;
 }
 
