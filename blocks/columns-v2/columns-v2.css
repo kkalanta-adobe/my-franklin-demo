@@ -3,30 +3,30 @@
   flex-direction: column;
 }
 
-.columns img {
+.columns-v2 img {
   width: 100%;
 }
 
-.columns > div > div {
+.columns-v2 > div > div {
   order: 1;
 }
 
-.columns > div > .columns-img-col {
+.columns-v2 > div > .columns-img-col {
   order: 0;
 }
 
-.columns > div > .columns-img-col img {
+.columns-v2 > div > .columns-img-col img {
   display: block;
 }
 
 @media (min-width: 900px) {
-  .columns > div {
+  .columns-v2 > div {
     align-items: center;
     flex-direction: unset;
     gap: 32px;
   }
 
-  .columns > div > div {
+  .columns-v2 > div > div {
     flex: 1;
     order: unset;
   }
