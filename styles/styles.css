@@ -115,6 +115,24 @@ hr {
   border-bottom: 1px solid var(--overlay-background-color);
 }
 
+ul.li {
+  margin-bottom: 1em;
+  font-family: monospace;
+  letter-spacing: 0.15em;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ol.li {
+  margin-bottom: 2em;
+  font-family: cursive;
+  letter-spacing: 0.05em;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 code, pre, samp {
   font-family: var(--fixed-font-family);
   font-size: var(--body-font-size-s);
