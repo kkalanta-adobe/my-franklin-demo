@@ -88,6 +88,11 @@ h4 { font-size: var(--heading-font-size-m); color: #d61799 }
 h5 { font-size: var(--heading-font-size-s); color: #03dcd8 }
 h6 { font-size: var(--heading-font-size-xs); color: #f08504 }
 
+h4.em {
+  font-style: italic;
+  color: #03dcd8;
+}
+
 p, dl, ol, ul, pre, blockquote {
   margin-top: 1em;
   margin-bottom: 1em;
