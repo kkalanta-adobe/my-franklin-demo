@@ -71,6 +71,21 @@ header {
   height: var(--nav-height);
 }
 
+strong {
+  font-weight: bold;
+  color: #1B7C08;
+}
+
+u {
+  text-decoration: underline;
+  color: #E10909;
+}
+
+em {
+  font-style: italic;
+  color: #175CAA;
+}
+
 h1, h2, h3,
 h4, h5, h6 {
   font-family: var(--heading-font-family);
@@ -88,19 +103,19 @@ h4 { font-size: var(--heading-font-size-m); color: #d61799 }
 h5 { font-size: var(--heading-font-size-s); color: #03dcd8 }
 h6 { font-size: var(--heading-font-size-xs); color: #f08504 }
 
-strong {
+h4 strong {
   font-weight: bold;
-  color: #1B7C08;
+  color: #FFC300;
 }
 
-u {
+h4 u {
   text-decoration: underline;
-  color: #E10909;
+  color: #09D4E1;
 }
 
-em {
+h4 em {
   font-style: italic;
-  color: #175CAA;
+  color: #E19209;
 }
 
 p, dl, ol, ul, pre, blockquote {
@@ -128,7 +143,8 @@ ol li {
   margin-bottom: 2em;
   font-family: cursive;
   letter-spacing: 0.05em;
-  background-image: linear-gradient(to left, violet, indigo, blue, green, orange, red);
+  list-style-type: upper-roman;
+  background-image: linear-gradient(to right, violet, indigo, blue, green, orange, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
