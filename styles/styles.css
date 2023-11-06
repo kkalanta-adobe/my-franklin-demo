@@ -88,17 +88,12 @@ h4 { font-size: var(--heading-font-size-m); color: #d61799 }
 h5 { font-size: var(--heading-font-size-s); color: #03dcd8 }
 h6 { font-size: var(--heading-font-size-xs); color: #f08504 }
 
-h4.em {
-  font-style: italic;
-  color: #03dcd8;
-}
-
-h4.strong {
+strong {
   font-weight: bold;
   color: #1B7C08;
 }
 
-h4.u {
+u {
   text-decoration: underline;
   color: #E10909;
 }
