@@ -93,9 +93,19 @@ h4.em {
   color: #03dcd8;
 }
 
+h4.strong {
+  font-weight: bold;
+  color: #1B7C08;
+}
+
+h4.u {
+  text-decoration: underline;
+  color: #E10909;
+}
+
 em {
   font-style: italic;
-  color: #03dcd8;
+  color: #175CAA;
 }
 
 p, dl, ol, ul, pre, blockquote {
